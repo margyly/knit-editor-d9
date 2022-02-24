@@ -1,0 +1,254 @@
+{
+   "$schema":"https://json-schema.org/draft/2020-12/schema",
+   "title":"Knitting Pattern",
+   "description":"A pattern with knitting instructions for a single knitting project",
+   "type":"object",
+   "properties":{
+      "patternTitle":{
+         "description":"Name of the knitting pattern",
+         "type":"string",
+         "title":"Pattern Title"
+      },
+      "authorName":{
+         "description":"Pattern author' name",
+         "type":"string",
+         "title":"Pattern Author"
+      },
+      "category":{
+         "description":"Category of what the pattern creates, e.g., hat, sweater, or scarf",
+         "type":"string",
+         "enum":[
+            "Scarf",
+            "Hat",
+            "Blanket",
+            "Sweater",
+            "Vest",
+            "Mittens",
+            "Gloves",
+            "Toy",
+            "Other"
+         ]
+      },
+      "description":{
+         "description":"Short description of what the pattern makes (e.g., Three-Color Nordic Hat)",
+         "type":"string"
+      },
+      "sizes":{
+         "description":"Sizes provided in the pattern (e.g., Children's Small)",
+         "type":"array",
+         "items":{
+            "type":"string"
+         },
+         "minItems":1,
+         "uniqueItems":true
+      },
+      "colors":{
+         "description":"Number of colors of yarn used in the pattern",
+         "type":"integer"
+      },
+      "inTheRound":{
+         "description":"Whether or not most or all of the pattern is knit in the round (true = in the round, false = back and forth",
+         "type":"boolean"
+      },
+      "yarnWeight":{
+         "description":"Weight (thickness) of the yarn to be used",
+         "type":"string"
+      },
+      "gauge":{
+         "description":"Number of stitches and rows per inch",
+         "type":"object",
+         "properties":{
+            "numberOfSts":{
+               "description":"Number of stiches that fit into the inchesSts number",
+               "type":"integer"
+            },
+            "inchesSts":{
+               "description":"Number of inches that numberOfSts measures across",
+               "type":"integer"
+            },
+            "numberOfRows":{
+               "description":"Number of rows that fit into the inchesRows number (optional)",
+               "type":"integer"
+            },
+            "inchesRows":{
+               "description":"umber of inches that numberOfRows measures up and down (optional)",
+               "type":"integer"
+            }
+         },
+         "required":[
+            "numberOfSts",
+            "inchesSts"
+         ]
+      },
+      "image":{
+         "type":"string",
+         "format":"url"
+      },
+      "section":{
+         "description":"Part of the pattern, creating part of the finished product, e.g., front, back, or sleeve. Each part may have different properties.",
+         "type":"array",
+         "items":[
+            {
+               "type":"object",
+               "properties":{
+                  "sectionTitle":{
+                     "description":"Name of the section, e.g., sleeve.",
+                     "type":"string"
+                  },
+                  "comment":{
+                     "description":"Optional text about this part of the pattern",
+                     "type":"string"
+                  },
+                  "quantity":{
+                     "description":"How many to make (e.g., make 24 squares to make a blanket)",
+                     "type":"integer"
+                  },
+                  "groupOfRows":{
+                     "description":"Group of rows, needed when a set of rows are repeated",
+                     "type":"array",
+                     "items":[
+                        {
+                           "type":"object",
+                           "properties":{
+                              "label":{
+                                 "description":"Label or name for this group of rows, e.g. Star Pattern",
+                                 "type":"string"
+                              },
+                              "comment":{
+                                 "description":"Optional text about this group of rows",
+                                 "type":"string"
+                              },
+                              "row":{
+                                 "description":"Label, comment, and instructions for one row",
+                                 "type":"object",
+                                 "properties":{
+                                    "label":{
+                                       "description":"Label or name for this row, e.g. Row 1 or Starting to Turn the Heel",
+                                       "type":"string"
+                                    },
+                                    "comment":{
+                                       "description":"Optional text about this row",
+                                       "type":"string"
+                                    },
+                                    "instructions":{
+                                       "description":"Instructions for how to knit this row",
+                                       "type":"array",
+                                       "items":[
+                                          {
+                                             "type":"object",
+                                             "properties":{
+                                                "actionGroup":{
+                                                   "description":"Stiches or groups of stitches to knit",
+                                                   "type":"array",
+                                                   "items":[
+                                                      {
+                                                         "type":"object",
+                                                         "properties":{
+                                                            "action":{
+                                                               "description":"Verb, like knit or purl or yarn over",
+                                                               "type":"array",
+                                                               "items":{
+                                                                  "description":"Single action verb (e.g., purl or yarn over)",
+                                                                  "type":"string",
+                                                                  "enum":[
+                                                                     "bo",
+                                                                     "co",
+                                                                     "connect",
+                                                                     "dec",
+                                                                     "inc",
+                                                                     "k",
+                                                                     "k2tog",
+                                                                     "k3tog",
+                                                                     "kfb",
+                                                                     "p",
+                                                                     "pfb",
+                                                                     "pm",
+                                                                     "rep",
+                                                                     "rm",
+                                                                     "sl",
+                                                                     "slm",
+                                                                     "ssk",
+                                                                     "turn",
+                                                                     "yb",
+                                                                     "yf",
+                                                                     "yo"
+                                                                  ]
+                                                               }
+                                                            },
+                                                            "times":{
+                                                               "description":"How many time to repeat the preceding array of actions",
+                                                               "type":"integer"
+                                                            },
+                                                            "color":{
+                                                               "description":"Color to use for these stitches",
+                                                               "type":"integer"
+                                                            },
+                                                            "modifier":{
+                                                               "description":"Other information that modifies how to perform these stitches",
+                                                               "type":"string",
+                                                               "enum":[
+                                                                  "kwise",
+                                                                  "pwise",
+                                                                  "RS",
+                                                                  "tbl",
+                                                                  "tfl",
+                                                                  "WS",
+                                                                  "wyib",
+                                                                  "wyif"
+                                                               ]
+                                                            }
+                                                         },
+                                                         "required":[
+                                                            "action"
+                                                         ]
+                                                      }
+                                                   ]
+                                                },
+                                                "times":{
+                                                   "description":"How many times to repeat this group of stitches",
+                                                   "type":"integer"
+                                                }
+                                             },
+                                             "required":[
+                                                "actionGroup"
+                                             ]
+                                          }
+                                       ]
+                                    },
+                                    "times":{
+                                       "description":"How many times to repeat this row",
+                                       "type":"integer"
+                                    },
+                                    "length":{
+                                       "description":"How many inches to repeat this row",
+                                       "type":"integer"
+                                    }
+                                 },
+                                 "required":[
+                                    "instructions"
+                                 ]
+                              }
+                           },
+                           "required":[
+                              "row"
+                           ]
+                        }
+                     ]
+                  }
+               }
+            }
+         ]
+      }
+   },
+   "required":[
+      "title",
+      "author",
+      "category",
+      "sizes",
+      "gauge",
+      "colors",
+      "inTheRound",
+      "yarnWeight",
+      "section"
+   ]
+}
