@@ -1,0 +1,10 @@
+uuid: ac4dfd5e-7621-4e21-92ec-cacc46871dd5
+langcode: en
+status: true
+dependencies: {  }
+id: stitch_group
+label: 'Stitch Group'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

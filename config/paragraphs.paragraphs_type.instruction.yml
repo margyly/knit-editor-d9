@@ -1,0 +1,10 @@
+uuid: 95525abd-0638-47dd-a548-5c27babc2d34
+langcode: en
+status: true
+dependencies: {  }
+id: instruction
+label: Instruction
+icon_uuid: null
+icon_default: null
+description: 'One group of stitches on a row. Made up of stitches.'
+behavior_plugins: {  }

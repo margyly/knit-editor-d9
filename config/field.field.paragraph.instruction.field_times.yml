@@ -1,0 +1,23 @@
+uuid: 9eefefb6-78f7-43de-8f9a-b9e360e2afc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_times
+    - paragraphs.paragraphs_type.instruction
+id: paragraph.instruction.field_times
+field_name: field_times
+entity_type: paragraph
+bundle: instruction
+label: Times
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,21 @@
+uuid: b61ec052-ac1c-46f6-9906-f14ca2788edb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_yarn_weight
+    - node.type.pattern
+id: node.pattern.field_yarn_weight
+field_name: field_yarn_weight
+entity_type: node
+bundle: pattern
+label: 'Yarn Weight'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: Worsted
+default_value_callback: ''
+settings: {  }
+field_type: string

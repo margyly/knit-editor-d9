@@ -1,0 +1,20 @@
+uuid: 9a280045-a6ef-4351-9ca0-925762509e36
+langcode: en
+status: true
+dependencies:
+  theme:
+    - knit_edit
+_core:
+  default_config_hash: ItFhhiUOoeR7oIq73ZaCV7PAYrOwXZ-9fazMzF5DJXM
+id: knit_edit_page_title
+theme: knit_edit
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

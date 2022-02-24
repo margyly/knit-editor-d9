@@ -1,0 +1,47 @@
+uuid: 78af7536-f0c2-47a0-84bb-47269fe601fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.stitch_group.field_color
+    - field.field.paragraph.stitch_group.field_modifier
+    - field.field.paragraph.stitch_group.field_stitch
+    - field.field.paragraph.stitch_group.field_times
+    - paragraphs.paragraphs_type.stitch_group
+id: paragraph.stitch_group.default
+targetEntityType: paragraph
+bundle: stitch_group
+mode: default
+content:
+  field_color:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_modifier:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_stitch:
+    type: options_buttons
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_times:
+    type: number
+    weight: 3
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

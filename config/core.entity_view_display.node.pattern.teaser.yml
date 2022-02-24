@@ -1,0 +1,36 @@
+uuid: dec87624-3e85-4837-8e4e-df1a9335f309
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.pattern.field_author_name
+    - field.field.node.pattern.field_category
+    - field.field.node.pattern.field_colors
+    - field.field.node.pattern.field_description
+    - field.field.node.pattern.field_in_the_round
+    - field.field.node.pattern.field_sections
+    - field.field.node.pattern.field_sizes
+    - field.field.node.pattern.field_yarn_weight
+    - node.type.pattern
+  module:
+    - user
+id: node.pattern.teaser
+targetEntityType: node
+bundle: pattern
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_author_name: true
+  field_category: true
+  field_colors: true
+  field_description: true
+  field_in_the_round: true
+  field_sections: true
+  field_sizes: true
+  field_yarn_weight: true

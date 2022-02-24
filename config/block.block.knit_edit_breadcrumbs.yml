@@ -1,0 +1,22 @@
+uuid: ca11d975-86a6-44d2-ac5a-b723fa849b37
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - knit_edit
+_core:
+  default_config_hash: y0bXRvKYQQKkf_RVxA3aOPGpIfKKsDOzzrWYCgjxJ9Y
+id: knit_edit_breadcrumbs
+theme: knit_edit
+region: slideout
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

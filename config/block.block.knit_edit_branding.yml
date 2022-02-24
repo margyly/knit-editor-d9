@@ -1,0 +1,25 @@
+uuid: 98eb66a7-dccc-432a-848a-59bdfea60e55
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - knit_edit
+_core:
+  default_config_hash: d-0emr1mEq7sFKDu5RHUJckvNk62hvIZdRwPEfnJyGg
+id: knit_edit_branding
+theme: knit_edit
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

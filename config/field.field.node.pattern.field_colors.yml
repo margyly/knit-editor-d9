@@ -1,0 +1,25 @@
+uuid: 43350ebc-4464-4644-b532-c4797b5a83c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_colors
+    - node.type.pattern
+id: node.pattern.field_colors
+field_name: field_colors
+entity_type: node
+bundle: pattern
+label: Colors
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

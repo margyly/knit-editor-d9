@@ -1,0 +1,23 @@
+uuid: f3106271-5f12-45ae-95e0-d8255b64106f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_stitch
+    - paragraphs.paragraphs_type.stitch_group
+  module:
+    - options
+id: paragraph.stitch_group.field_stitch
+field_name: field_stitch
+entity_type: paragraph
+bundle: stitch_group
+label: Stitch
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: k
+default_value_callback: ''
+settings: {  }
+field_type: list_string

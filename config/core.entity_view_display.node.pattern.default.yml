@@ -1,0 +1,95 @@
+uuid: 69206b9b-1566-4c85-a193-47d8d59c9a40
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.pattern.field_author_name
+    - field.field.node.pattern.field_category
+    - field.field.node.pattern.field_colors
+    - field.field.node.pattern.field_description
+    - field.field.node.pattern.field_in_the_round
+    - field.field.node.pattern.field_sections
+    - field.field.node.pattern.field_sizes
+    - field.field.node.pattern.field_yarn_weight
+    - node.type.pattern
+  module:
+    - entity_reference_revisions
+    - user
+id: node.pattern.default
+targetEntityType: node
+bundle: pattern
+mode: default
+content:
+  field_author_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 108
+    region: content
+  field_category:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_colors:
+    type: number_integer
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_description:
+    type: basic_string
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_in_the_round:
+    type: boolean
+    label: inline
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_sections:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  field_sizes:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_yarn_weight:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

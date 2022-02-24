@@ -1,0 +1,8 @@
+uuid: 0433bdde-1625-4a07-8d41-7dda04ded26a
+langcode: en
+status: true
+dependencies: {  }
+name: Categories
+vid: categories
+description: 'Types of things a pattern makes (e.g., hat)'
+weight: 0

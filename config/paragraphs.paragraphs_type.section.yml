@@ -1,0 +1,10 @@
+uuid: 005055aa-0264-4877-a571-458f44ab068c
+langcode: en
+status: true
+dependencies: {  }
+id: section
+label: Section
+icon_uuid: null
+icon_default: null
+description: 'Instructions for a large section, e.g., Left arm or Back. Made up of rows.'
+behavior_plugins: {  }

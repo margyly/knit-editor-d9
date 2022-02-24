@@ -1,0 +1,23 @@
+uuid: 414df20c-ffb1-4e37-a4d9-fb0343c0e544
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_in_the_round
+    - node.type.pattern
+id: node.pattern.field_in_the_round
+field_name: field_in_the_round
+entity_type: node
+bundle: pattern
+label: 'In the Round'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'In the Round'
+  off_label: 'Back and Forth'
+field_type: boolean
