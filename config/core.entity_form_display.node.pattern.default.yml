@@ -7,12 +7,18 @@ dependencies:
     - field.field.node.pattern.field_category
     - field.field.node.pattern.field_colors
     - field.field.node.pattern.field_description
+    - field.field.node.pattern.field_gauge_inches
+    - field.field.node.pattern.field_gauge_inches_rows
+    - field.field.node.pattern.field_image_location
     - field.field.node.pattern.field_in_the_round
+    - field.field.node.pattern.field_number_of_rows
+    - field.field.node.pattern.field_number_of_stitches
     - field.field.node.pattern.field_sections
     - field.field.node.pattern.field_sizes
     - field.field.node.pattern.field_yarn_weight
     - node.type.pattern
   module:
+    - link
     - paragraphs
 id: node.pattern.default
 targetEntityType: node
@@ -21,7 +27,7 @@ mode: default
 content:
   field_author_name:
     type: string_textfield
-    weight: 27
+    weight: 3
     region: content
     settings:
       size: 60
@@ -29,7 +35,7 @@ content:
     third_party_settings: {  }
   field_category:
     type: entity_reference_autocomplete
-    weight: 4
+    weight: 5
     region: content
     settings:
       match_operator: CONTAINS
@@ -39,7 +45,7 @@ content:
     third_party_settings: {  }
   field_colors:
     type: number
-    weight: 3
+    weight: 4
     region: content
     settings:
       placeholder: ''
@@ -52,16 +58,52 @@ content:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
+  field_gauge_inches:
+    type: number
+    weight: 10
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_gauge_inches_rows:
+    type: number
+    weight: 11
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_image_location:
+    type: link_default
+    weight: 13
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
   field_in_the_round:
     type: boolean_checkbox
-    weight: 6
+    weight: 7
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
+  field_number_of_rows:
+    type: number
+    weight: 12
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_number_of_stitches:
+    type: number
+    weight: 9
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
   field_sections:
     type: entity_reference_paragraphs
-    weight: 26
+    weight: 14
     region: content
     settings:
       title: Paragraph
@@ -73,7 +115,7 @@ content:
     third_party_settings: {  }
   field_sizes:
     type: string_textfield
-    weight: 5
+    weight: 6
     region: content
     settings:
       size: 60
@@ -81,7 +123,7 @@ content:
     third_party_settings: {  }
   field_yarn_weight:
     type: string_textfield
-    weight: 7
+    weight: 8
     region: content
     settings:
       size: 60

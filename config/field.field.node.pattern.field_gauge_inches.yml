@@ -1,0 +1,23 @@
+uuid: 47333060-6b2c-4325-8623-94c0b6fb5a21
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gauge_inches
+    - node.type.pattern
+id: node.pattern.field_gauge_inches
+field_name: field_gauge_inches
+entity_type: node
+bundle: pattern
+label: 'Gauge Inches'
+description: 'Number of inches that the specified number of stitches should measure'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

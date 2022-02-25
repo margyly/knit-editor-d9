@@ -1,0 +1,20 @@
+uuid: 98513d5d-be2b-4362-844e-49f3d2aa9024
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_number_of_stitches
+field_name: field_number_of_stitches
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

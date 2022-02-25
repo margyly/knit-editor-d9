@@ -1,0 +1,23 @@
+uuid: 4b84808c-a70c-486c-a2e9-7e05bf8c2f77
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gauge_inches_rows
+    - node.type.pattern
+id: node.pattern.field_gauge_inches_rows
+field_name: field_gauge_inches_rows
+entity_type: node
+bundle: pattern
+label: 'Gauge Inches Rows'
+description: 'Number of inches the specified number of rows should measure'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

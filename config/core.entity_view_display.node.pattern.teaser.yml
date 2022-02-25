@@ -8,7 +8,12 @@ dependencies:
     - field.field.node.pattern.field_category
     - field.field.node.pattern.field_colors
     - field.field.node.pattern.field_description
+    - field.field.node.pattern.field_gauge_inches
+    - field.field.node.pattern.field_gauge_inches_rows
+    - field.field.node.pattern.field_image_location
     - field.field.node.pattern.field_in_the_round
+    - field.field.node.pattern.field_number_of_rows
+    - field.field.node.pattern.field_number_of_stitches
     - field.field.node.pattern.field_sections
     - field.field.node.pattern.field_sizes
     - field.field.node.pattern.field_yarn_weight
@@ -30,7 +35,12 @@ hidden:
   field_category: true
   field_colors: true
   field_description: true
+  field_gauge_inches: true
+  field_gauge_inches_rows: true
+  field_image_location: true
   field_in_the_round: true
+  field_number_of_rows: true
+  field_number_of_stitches: true
   field_sections: true
   field_sizes: true
   field_yarn_weight: true

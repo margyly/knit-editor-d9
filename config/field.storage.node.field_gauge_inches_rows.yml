@@ -1,0 +1,20 @@
+uuid: 4ffde455-1751-4bd2-9c31-de7a8eff8e6a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_gauge_inches_rows
+field_name: field_gauge_inches_rows
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

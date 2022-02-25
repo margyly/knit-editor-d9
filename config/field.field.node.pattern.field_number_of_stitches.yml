@@ -1,0 +1,23 @@
+uuid: 0afd31d4-3bec-4f64-944d-d988b2179b1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_number_of_stitches
+    - node.type.pattern
+id: node.pattern.field_number_of_stitches
+field_name: field_number_of_stitches
+entity_type: node
+bundle: pattern
+label: 'Number of Stitches'
+description: 'Number of stitches that should measure the specified number of inches'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

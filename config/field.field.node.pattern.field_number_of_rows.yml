@@ -1,0 +1,23 @@
+uuid: 09c990af-d201-44ae-8855-8595f027345b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_number_of_rows
+    - node.type.pattern
+id: node.pattern.field_number_of_rows
+field_name: field_number_of_rows
+entity_type: node
+bundle: pattern
+label: 'Number of Rows'
+description: 'Number of rows that should measure the number of inches specified'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer
