@@ -1,0 +1,86 @@
+# Sample YAML format for knitting pattern using hyphens to avoid so many levels of nesting
+---
+title: Sweater
+author:
+  name: Jane Doe
+  email: jane@gurus.org
+  website: https://gurus.org
+description: Scarf with three colors
+dategory: Scarf
+colors: A, B
+sizes: 
+- small
+- medium
+- large
+image: https://gurus.org/picture.jpg
+yarnWeight: worsted
+gauge: 
+  stitches: 20
+  stitchesInches: 4
+  rows: 5
+  rowsInches: 5 
+inTheRound: yes
+sections:
+- sectionLabel: Sleeve
+  description: xxxx
+  quantity: 2
+  rowGroups:
+  - rowGroupLabel: Getting started
+    note: whatever
+    qty: 1
+    rows:
+    - rowLabel: Casting on
+      note: Use longtail cast-on.
+      qty: 1
+      - stitchGroups:
+        - stitchGroupLabel:
+          note: 
+          qty: 1
+          stitches: 
+          - action: co
+            qty: 32
+            color: A
+            modifer:
+  - rowGroupLabel: Getting started
+    note: whatever
+    qty: 18
+    rows:
+    - rowLabel: Start Ribbing
+      note: Be sure not to twist when you connect into a loop!
+      qty: 1
+      stitchGroups:
+      - stitchGroupLabel: Red ribbing
+        note: Weave in the ends.
+        qty: 2
+        stitches: 
+        - action: k 
+          qty: 2
+          color: A
+          modifer: wyb
+        - action: p 
+          qty: 2
+          color: A
+          modifer:
+      - stitchGroupLabel: Blue ribbing
+        note: 
+        qty: 4
+        stitches: 
+        - action: k
+          qty: 1
+          color: B
+          modifer:
+        - action: p
+          qty: 2
+          color: B
+          modifer:
+#
+# Examples of what to display:
+# Instructions by row:
+# Start ribbing. Be sure not to twist when you connect into a loop! K 2, p 2 in color A 2 times. K 1 P 2 in color B 4 times.
+#
+# Instructions by stitch group:
+# Start ribbing. Be sure not to twist when you connect into a loop! K 2, p 2 in color A 2 times.
+# Then:
+# K 1 P 2 in color B 4 times.
+
+

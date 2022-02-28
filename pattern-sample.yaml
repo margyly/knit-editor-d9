@@ -1,4 +1,5 @@
-
+# Sample YAML format for knitting pattern
+---
 title: Sweater
 author:
   name: Jane Doe
@@ -12,13 +13,13 @@ image: https://gurus.org/picture.jpg
 yarnWeight: worsted
 gauge: 
   stitches: 20
-  inchesforStitches: 4
+  stitchesInches: 4
   rows: 5
-  inchesforRows: 5 
+  rowsInches: 5 
 inTheRound: yes
 sections:
   section:
-    title: Sleeve
+    sectionTitle: Sleeve
     description: xxxx
     quantity: 2
     rowGroups:
