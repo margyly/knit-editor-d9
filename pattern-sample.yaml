@@ -8,7 +8,7 @@ author:
 description: Scarf with three colors
 dategory: Scarf
 colors: A, B
-sizes: small, medium, large
+sizes: small, medium
 image: https://gurus.org/picture.jpg
 yarnWeight: worsted
 gauge: 
@@ -18,79 +18,58 @@ gauge:
   rowsInches: 5 
 inTheRound: yes
 sections:
-  section:
-    sectionTitle: Sleeve
+  - label: Sleeve
     description: xxxx
     quantity: 2
     rowGroups:
-      rowGroup:
-        label: Getting started
+      - label: Getting started
         note: whatever
-        quantity: 1
         rows:
-          row:
-            label: Casting on
+          - label: Casting on
             note: Use longtail cast-on.
-            quantity: 1
             stitchGroups:
-              stitchGroup:
-                label:
-                note: 
-                quantity: 1
-                stitches: 
-                  stitch: 
-                    action: co
+              - stitches: 
+                  - action: co
                     quantity: 32
                     color: A
                     modifer:
-      rowGroup:
-        label: Getting started
+      - label: Getting started
         note: whatever
         quantity: 18
         rows:
-          row:
-            label: Start Ribbing
+          - label: Start Ribbing
             note: Be sure not to twist when you connect into a loop!
-            quantity: 1
             stitchGroups:
-              stitchGroup: 
-                label: Red ribbing
+              - label: Red ribbing
                 note: Weave in the ends.
                 quantity: 2
                 stitches: 
-                  stitch: 
-                    action: k 
+                  - action: k 
                     quantity: 2
                     color: A
                     modifer: wyb
-                  stitch: 
-                    action: p 
+                  - action: p 
                     quantity: 2
                     color: A
                     modifer:
-              stitchGroup: 
-                label: Blue ribbing
-                note: 
+              - label: Blue ribbing
                 quantity: 4
                 stitches: 
-                  stitch: 
-                    action: k
-                    quantity: 1
+                  - action: k
                     color: B
                     modifer:
-                  stitch: 
-                    action: p
+                  - action: p
                     quantity: 2
                     color: B
                     modifer:
 #
 # Examples of what to display:
 # Instructions by row:
-# Start ribbing. Be sure not to twist when you connect into a loop! K 2, p 2 in color A 2 times. K 1 P 2 in color B 4 times.
+# Start ribbing. Be sure not to twist when you connect into a loop! (K 2, p 2 in color A) 2 times. (K 1 P 2 in color B) 4 times.
 #
 # Instructions by stitch group:
-# Start ribbing. Be sure not to twist when you connect into a loop! K 2, p 2 in color A 2 times.
+# Start ribbing. Be sure not to twist when you connect into a loop! (K 2, p 2 in color A) 2 times.
 # Then:
-# K 1 P 2 in color B 4 times.
+# (K 1 P 2 in color B) 4 times.
 
 
