@@ -1,11 +1,11 @@
 title: Earflap Hat
 description: Hat with earflaps. Use your own color pattern! Based on a pattern by Leef Bloomenstiel from knitting.about.com
 author
-   name:Margy Levine Young
+   name: Margy Levine Young
    email: margy@gurus.org
    website: https://gurus.org/margy
-colors: one
-category:Hat
+colors: Red
+category: Hat
 image: 
 sizes: small, medium
 yarnWeight: Worsted
@@ -18,7 +18,7 @@ inTheRound: yes
 sections:
    section:
       sectionLabel: Ear Flap
-      quantity:2
+      quantity: 2
       description: One for each side. They are little triangles knit back and forth, not in the round.
       rowGroups:
          rowGroup:
