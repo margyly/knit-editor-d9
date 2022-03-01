@@ -1,13 +1,237 @@
 title: Mittens for Meg
 gauge:
-	stitches: 5
-	stitchesInches: 1
+  stitches: 5
+  stitchesInches: 1
+  rows: 6
+  rowsInches: 1
 inTheRound: yes
-author
-   name:Margy Levine Young
-   email: margy@gurus.org
-   website: https://gurus.org/margy
+author:
+  name: Margy Levine Young
+  email: margy@gurus.org
+  website: https://gurus.org/margy
 sections:
-	section:
-		
+  - label: Wrist
+    rowGroups:
+      - rows:
+          - stitchGroups:
+            - stitches:
+                - action: co
+                  quantity: 32
+      - rows:
+          - quantity: 15
+            stitchGroups:
+              - quantity: 8
+                stitches:
+                  - action: k
+                    quantity: 2
+                  - action: p
+                    quantity: 2
+      - rows:
+          - stitchGroups:
+              - stitches:
+                  - action: k
+                    quantity: 8
+                  - action: inc
+                  - action: k
+                    quantity: 8
+                  - action: inc
+                  - action: k
+                    quantity: 8
+                  - action: inc
+                  - action: k
+                    quantity: 5
+      - quantity: 3
+        rows:
+          row:
+            stitchGroups:
+              - stitches:
+                  - action: k
+                    quantity: 32
+  - label: Thumb gusset
+    rowGroups:
+      - rows:
+          - label: Row 1. Set up gusset
+            stitchGroups:
+               - stitches:
+                  - action: k
+                    quantity: 17
+                  - action: pm
+                  - action: m1l
+                  - action: k
+                  - action: m1r 
+                  - action: k
+                  - action: pm
+                  - action: k
+                    modifier: to end of row
+      - label: Shape gusset
+        quantity: 12
+        rows:
+          - label: Row 2
+            stitchGroups:
+              - stitches:
+                  - action: k
+                    modifier: to end of row 
+          - label: Row 3
+            stitchGroups:
+              - stitches:
+                  - action: k
+                    modifier: to marker 
+                  - action: m1l
+                  - action: k
+                    modifier: to marker 
+                  - action: m1r
+                    modifier: to marker 
+                  - action: k
+                    modifier: to end of row 
+  - label: Hand
+    rowGroups:
+      - label: Set thumb aside
+        rows:
+          - stitchGroups:
+              - stitches:
+                  - action: k
+                    modifier: to first marker
+                  - action: rm
+                    modifier: then place thumb sts (13 sts between markers) on length of waste yarn
+                  - action: co
+                    quantity: 3
+                    modifier: using backward loop method, over the gap
+                  - action: k
+                    modifier: to end of row
+      - note: 35 sts on row.
+        rows:
+          - quantity: 24
+            stitchGroups:
+              - stitches:
+                  - action: k
+  - label: Top of mitten
+    rowGroups:
+      - rows:
+          - stitchGroups:
+              - note: Reduce from 53 sts to 32 around the mitten.
+                stitches:
+                  - action: k
+                    quantity: 5
+                  - action: k2tog
+                  - action: k
+                    quantity: 10
+                  - action: k2tog
+                  - action: k
+                    quantity: 10
+                  - action: k2tog
+                  - action: k
+                    quantity: 4
+          - stitchGroups:
+              - quantity: 4
+                stitches:
+                  - action: k
+                    quantity: 6
+                  - action: k2tog
+          - stitchGroups:
+              - stitches:
+                  - action: k
+                    quantity: 28
+          - stitchGroups:
+              - quantity: 4
+                stitches:
+                  - action: k
+                    quantity: 5
+                  - action: k2tog
+          - stitchGroups:
+              - stitches:
+                  - action: k
+                    quantity: 24
+          - stitchGroups:
+              - quantity: 4
+                stitches:
+                  - action: k
+                    quantity: 4
+                  - action: k2tog
+          - stitchGroups:
+              - stitches:
+                  - action: k
+                    quantity: 20
+          - stitchGroups:
+              - quantity: 4
+                stitches:
+                  - action: k
+                    quantity: 3
+                  - action: k2tog
+          - stitchGroups:
+              - quantity: 4
+                stitches:
+                  - action: k
+                    quantity: 2
+                  - action: k2tog
+          - stitchGroups:
+              - quantity: 4
+                stitches:
+                  - action: k
+                    quantity: 1
+                  - action: k2tog
+                    quantity: 1
+          - note: Break off yarn, thread tail thru remainining sts and pull tight.
+  - label: Thumb
+    rowGroups:
+      - rows:
+          - note: Place held thumb sts on 3 dp needles.
+          - stitchGroups:
+              - note: Pick up and k 1 st over gap. 
+              - stitches:
+                  - action: k
+                    quantity: 13
+              - note: Join, with 14 sts.
+          - stitchGroups:
+              - quantity: 8
+                stitches:
+                  - action: k
+                    quantity: 14
+          - label: Shape top of thumb.
+            stitchGroups:
+              - quantity: 2
+                stitches:
+                  - action: k
+                    quantity: 3
+                  - action: k2tog
+              - stitches:
+                  - action: k
+                    quantity: 2
+                  - action: k2tog
+          - stitchGroups:
+              - stitches:
+                  - action: k
+                    quantity: 11
+          - stitchGroups:
+              - quantity: 2
+                stitches:
+                  - action: k
+                    quantity: 2
+                  - action: k2tog
+              - stitches:
+                  - action: k
+                  - action: k2tog
+          - stitchGroups:
+              - stitches:
+                  - action: k
+                    quantity: 8
+          - stitchGroups:
+              - quantity: 3
+                stitches:
+                  - action: k2tog
+                  - action: k
+              - stitches:
+                  - action: k2tog
+          - stitchGroups:
+              - stitches:
+                  - action: k
+                    quantity: 5
+          - note: Break off yarn, thread tail thru remainining sts and pull tight.          
+
+
+
+
+
+
+
+
 
