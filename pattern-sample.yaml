@@ -26,61 +26,61 @@ sections:
       rowGroup:
         label: Getting started
         note: whatever
-        qty: 1
+        quantity: 1
         rows:
           row:
             label: Casting on
             note: Use longtail cast-on.
-            qty: 1
+            quantity: 1
             stitchGroups:
               stitchGroup:
                 label:
                 note: 
-                qty: 1
+                quantity: 1
                 stitches: 
                   stitch: 
                     action: co
-                    qty: 32
+                    quantity: 32
                     color: A
                     modifer:
       rowGroup:
         label: Getting started
         note: whatever
-        qty: 18
+        quantity: 18
         rows:
           row:
             label: Start Ribbing
             note: Be sure not to twist when you connect into a loop!
-            qty: 1
+            quantity: 1
             stitchGroups:
               stitchGroup: 
                 label: Red ribbing
                 note: Weave in the ends.
-                qty: 2
+                quantity: 2
                 stitches: 
                   stitch: 
                     action: k 
-                    qty: 2
+                    quantity: 2
                     color: A
                     modifer: wyb
                   stitch: 
                     action: p 
-                    qty: 2
+                    quantity: 2
                     color: A
                     modifer:
               stitchGroup: 
                 label: Blue ribbing
                 note: 
-                qty: 4
+                quantity: 4
                 stitches: 
                   stitch: 
                     action: k
-                    qty: 1
+                    quantity: 1
                     color: B
                     modifer:
                   stitch: 
                     action: p
-                    qty: 2
+                    quantity: 2
                     color: B
                     modifer:
 #

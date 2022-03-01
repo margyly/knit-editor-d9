@@ -7,7 +7,9 @@ author:
   website: https://gurus.org
 description: Scarf with three colors
 dategory: Scarf
-colors: A, B
+colors: 
+- A
+- B
 sizes: 
 - small
 - medium
@@ -23,7 +25,7 @@ inTheRound: yes
 sections:
 - sectionLabel: Sleeve
   description: xxxx
-  quantity: 2
+  qty: 2
   rowGroups:
   - rowGroupLabel: Getting started
     note: whatever
