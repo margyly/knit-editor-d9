@@ -1,0 +1,144 @@
+%YAML 1.1
+---
+$schema: "http://stsci.edu/schemas/yaml-schema/draft-01"
+id: "http://gurus.org/schemas/knitting-pattern-draft-01.yaml"
+title: Knitting pattern.
+maintainers:
+  - Margy Levine Young <margy@gurus.org>
+description: Describes a single knitting pattern with description and row-by-row instructions.
+type: object
+properties:
+  title: 
+    description: Pattern title
+    type: string
+    maxItems: 1
+  description: 
+    description: Description of the pattern and what it makes
+    type: string
+    maxItems: 1
+  author:
+    name: 
+      description: Full or company name of author
+      type: string
+      maxItems: 1
+    email: 
+      description: Author's email
+      type: string
+      maxItems: 1
+    website: 
+      description: Author's website
+      type: url
+      maxItems: 1
+  colors: 
+    description: Suggested color(s)
+    type: string
+    maxItems: 30
+  category: 
+    description: Type of item the pattern makes
+    type: string
+    maxItems: 1
+    oneOf:
+      - items:
+        - enum: [Hat, Sweater, Add More Later]
+  image: 
+    description: Picture of what the pattern makes
+    type: url
+    maxItems: 1
+  sizes: 
+    description: Sizes described in the pattern, in the order in which numbers will be specified
+    type: string
+    maxItems: 20
+  yarnWeight: 
+    description: Thickness of the yarn to be used
+    type: string
+    maxItems: 1
+  gauge: 
+    stitches: 
+      description: Number of stitches that will measure stitchesInches inches
+      type: integer
+      maxItems: 1
+    stitchesInches: 
+      description: Number of inches that stitches will measure
+      type: integer
+      maxItems: 1
+    rows: 
+      description: Number of rows that will measure rowsInches
+      type: integer
+      maxItems: 1
+    rowsInches: 
+      description: Number of inches that rows will measure
+      type: integer
+      maxItems: 1
+  inTheRound: 
+    description: Yes if knit in the round, no if knit back and forth
+    type: boolean
+    maxItems: 1
+  sections:
+    description: Section of the work, like Sleeve or Brim
+    type: object
+    properties:
+      label: 
+        description: Name of the section, like Sleeve or Brim
+        type: string
+        maxItems: 1
+      quantity: 
+        description: Number of theser to make (e.g., for Sleeve, it's 2)
+        type: string
+        maxItems: 1
+      description: 
+        description: More text about this section
+        type: string
+        maxItems: 1
+      rowGroups:
+        description: Group of rows (grouped together in case they are repeated)
+        type: object
+        properties:
+          quantity: 
+            description: Number of times to repeat this group of rows
+            type: string
+            maxItems: 1
+          rows:
+            description: Instructions for rows in this group
+            type: object
+            properties:
+              label: 
+                description: Label for this row (e.g., Row 1)
+                type: string
+                maxItems: 1
+              note: 
+                description: Additional instructions about this row
+                type: string
+                maxItems: 1
+              quantity: 
+                description: Number of times to repeat this row
+                type: string
+                maxItems: 1
+              stitchGroups:
+                description: Group of stitches, which might be repeated
+                type: object
+                properties:
+                  note: 
+                    description: Additional instructions about this group of stitches
+                    type: string
+                    maxItems: 1
+                  stitches:
+                    description: Individual stitches
+                    type: object
+                    properties:
+                      action: 
+                        description: Stitch abbreviation, like k or p
+                        type: string
+                        maxItems: 1
+                        oneOf:
+                          - items:
+                            - enum: [k, p, etc]
+                      quantity:
+                        description: Number of times to repeat that individual stitch
+                        type: string
+                      color:
+                        description: Color or yarn to use
+                        type: string
+                      modifier:
+                        description: Additional text about that stitch, e.g., yarn in back
+                        type: string
+
