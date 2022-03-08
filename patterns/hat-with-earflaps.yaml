@@ -20,8 +20,7 @@ sections:
     quantity: 2
     description: One for each side. They are little triangles knit back and forth, not in the round.
     rowGroups:
-      - note:
-        rows:
+      - rows:
           - note: Use a cable cast on. Make a slip stitch on the needle, knit this stitch, and put the new st on the needle, for 2 st. Pull a loop thru the space between the last two sts and put that loop on the needle to add sts.
             stitchGroups:
               - stitches:
@@ -47,8 +46,7 @@ sections:
   - section: Hat
     description: Now you start knitting in the round on a circular needle, picking up stiches from the ear flaps.
     rowGroups:
-      - note:
-        rows:
+      - rows:
           - label: Cast on the rest of the stitches using a cable cast-on.
             stitchGroups:
               - stitches:

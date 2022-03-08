@@ -1,0 +1,94 @@
+title: Lacy Baby Sweater
+description: 
+author:
+   name: 
+   email: 
+   website: 
+colors: one
+category: Sweater
+image: 
+sizes: baby 1 (20" chest), baby 2 (22" chest), baby 3 (24" chest)
+yarnWeight: baby weight
+gauge: 
+  stitches: 6
+  stitchesInches: 1
+  rows: 12
+  rowsInches: 1 
+inTheRound: yes
+sections:
+  - label: Back
+    quantity: 
+    description: Starts at the lower edge.
+    rowGroups:
+      - rows:
+          - stitchGroups:
+              - stitches:
+                - action: co
+                  quantity: [60, 68, 74]
+          - note: Ribbing
+            quantity: 12
+            stitchGroups:
+              - quantity: [30, 34, 37]
+                stitches:
+                  - action: k
+                    quantity: 1
+                  - action: p
+                    quantity: 1
+          - stitchGroups:
+              - quantity: [30, 34, 37]
+                stitches:
+                  - action: k
+                    quantity: 1
+                  - action: p
+                    quantity: 1
+              - stitches:
+                  - action: k
+                    quantity: 1
+                  - action: inc
+                    quantity: 1
+          - note: Work in pattern as follows. 61, 69, 75 stitches on the needle.
+            quantity: [13, 15, 17]
+            stitchGroups:
+              - stitches:
+                  - action: k
+                    quantity: [7, 8, 9]
+              - quantity: 6
+                stitches:
+                  - action: k2tog
+                  - action: yo
+                  - action: k
+                    quantity: [7, 8, 9]
+          - quantity: 4
+            stitchGroups:
+              - stitches:
+                  - action: k
+                    quantity: [1, 2, 1]
+              - quantity: [30, 34, 37]
+                stitches:
+                  - action: yo
+                    quantity: 1
+                  - action: k2tog
+sections:
+  - label: Sleeves
+    quantity: 
+    description: Cast on at both ends of the back to add sleeves.
+    rowGroups:
+      - rows:
+          - note: Cast on at the end of the last row of the back.
+            stitchGroups:
+              - stitches:
+                  - action: k
+                    quantity: [1, 2, 1]
+              - quantity: [30, 34, 37]
+                stitches:
+                  - action: yo
+                    quantity: 1
+                  - action: k2tog
+                - action: co
+                  quantity: 13
+          - note: to be continued...
+
+
+
+
+ 
