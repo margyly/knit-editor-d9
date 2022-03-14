@@ -9,7 +9,7 @@ id: paragraph.section.field_quantity
 field_name: field_quantity
 entity_type: paragraph
 bundle: section
-label: Quantity
+label: quantity
 description: ''
 required: false
 translatable: false

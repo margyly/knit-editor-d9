@@ -1,0 +1,10 @@
+uuid: d7377a42-8f48-49c8-a5fb-cb8d94841ce3
+langcode: en
+status: true
+dependencies: {  }
+id: rowgroup
+label: rowGroup
+icon_uuid: null
+icon_default: null
+description: 'Group of rows that might be repeated. Made up of rows.'
+behavior_plugins: {  }

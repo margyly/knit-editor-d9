@@ -1,19 +1,19 @@
-uuid: e0ee03fe-4711-48b0-94a0-dd4acf6cc016
+uuid: 96aa61be-ab26-47f8-8033-0a0c5722b456
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_colors
+    - field.storage.node.field_author_email
     - node.type.pattern
-id: node.pattern.field_colors
-field_name: field_colors
+id: node.pattern.field_author_email
+field_name: field_author_email
 entity_type: node
 bundle: pattern
-label: colors
+label: 'Author Email'
 description: ''
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string
+field_type: email

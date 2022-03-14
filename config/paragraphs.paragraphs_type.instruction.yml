@@ -3,8 +3,8 @@ langcode: en
 status: true
 dependencies: {  }
 id: instruction
-label: Instruction
+label: stitchGroup
 icon_uuid: null
 icon_default: null
-description: 'One group of stitches on a row. Made up of stitches.'
+description: 'Used in row paragraphs.'
 behavior_plugins: {  }

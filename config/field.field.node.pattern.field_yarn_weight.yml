@@ -9,7 +9,7 @@ id: node.pattern.field_yarn_weight
 field_name: field_yarn_weight
 entity_type: node
 bundle: pattern
-label: 'Yarn Weight'
+label: yarnWeight
 description: ''
 required: true
 translatable: false

@@ -3,14 +3,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.stitch_group.field_color
-    - field.field.paragraph.stitch_group.field_modifier
-    - field.field.paragraph.stitch_group.field_stitch
-    - field.field.paragraph.stitch_group.field_times
-    - paragraphs.paragraphs_type.stitch_group
-id: paragraph.stitch_group.default
+    - field.field.paragraph.stitch.field_color
+    - field.field.paragraph.stitch.field_modifier
+    - field.field.paragraph.stitch.field_stitch
+    - field.field.paragraph.stitch.field_times
+    - paragraphs.paragraphs_type.stitch
+id: paragraph.stitch.default
 targetEntityType: paragraph
-bundle: stitch_group
+bundle: stitch
 mode: default
 content:
   field_color:

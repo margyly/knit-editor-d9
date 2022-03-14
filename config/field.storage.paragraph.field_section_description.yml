@@ -1,20 +1,18 @@
-uuid: d6948e52-a0bf-4e7c-af60-6ad41f475c03
+uuid: dadb8850-e433-4695-9328-917206f41a70
 langcode: en
 status: true
 dependencies:
   module:
-    - node
-id: node.field_colors
-field_name: field_colors
-entity_type: node
-type: string
+    - paragraphs
+id: paragraph.field_section_description
+field_name: field_section_description
+entity_type: paragraph
+type: string_long
 settings:
-  max_length: 255
   case_sensitive: false
-  is_ascii: false
 module: core
 locked: false
-cardinality: -1
+cardinality: 1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

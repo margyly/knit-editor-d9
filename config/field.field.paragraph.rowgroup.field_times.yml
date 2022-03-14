@@ -1,16 +1,16 @@
-uuid: 9d54da66-c20a-4585-a6a3-96d3077eb356
+uuid: 36d215d3-52c0-4623-8e97-a264ff41211e
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_times
-    - paragraphs.paragraphs_type.stitch_group
-id: paragraph.stitch_group.field_times
+    - paragraphs.paragraphs_type.rowgroup
+id: paragraph.rowgroup.field_times
 field_name: field_times
 entity_type: paragraph
-bundle: stitch_group
-label: times
-description: ''
+bundle: rowgroup
+label: quantity
+description: 'Number of times to repeat this group of rows'
 required: false
 translatable: true
 default_value:

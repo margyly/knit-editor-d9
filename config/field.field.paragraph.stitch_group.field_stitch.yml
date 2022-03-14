@@ -11,8 +11,8 @@ id: paragraph.stitch_group.field_stitch
 field_name: field_stitch
 entity_type: paragraph
 bundle: stitch_group
-label: Stitch
-description: ''
+label: action
+description: 'Stitch or other action'
 required: true
 translatable: true
 default_value:

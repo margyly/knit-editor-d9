@@ -9,9 +9,9 @@ id: paragraph.section.field_section_name
 field_name: field_section_name
 entity_type: paragraph
 bundle: section
-label: 'Section Name'
-description: ''
-required: false
+label: label
+description: 'Name of the section, e.g., Sleeve, Back, Brim.'
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''

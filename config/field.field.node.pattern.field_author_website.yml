@@ -1,18 +1,18 @@
-uuid: 398907e1-f16a-49f3-9961-60509317703a
+uuid: f6987a17-1d9f-4b60-9dd7-43dbf3a3cab3
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_image_location
+    - field.storage.node.field_author_website
     - node.type.pattern
   module:
     - link
-id: node.pattern.field_image_location
-field_name: field_image_location
+id: node.pattern.field_author_website
+field_name: field_author_website
 entity_type: node
 bundle: pattern
-label: image
-description: 'URL of image of what the pattern looks like when finished'
+label: 'Author Website'
+description: ''
 required: false
 translatable: false
 default_value: {  }

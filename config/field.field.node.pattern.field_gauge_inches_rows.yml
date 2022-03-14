@@ -9,7 +9,7 @@ id: node.pattern.field_gauge_inches_rows
 field_name: field_gauge_inches_rows
 entity_type: node
 bundle: pattern
-label: 'Gauge Inches Rows'
+label: inchesRows
 description: 'Number of inches the specified number of rows should measure'
 required: false
 translatable: false

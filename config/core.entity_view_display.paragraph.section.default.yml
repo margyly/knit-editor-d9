@@ -4,7 +4,8 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.section.field_quantity
-    - field.field.paragraph.section.field_rows
+    - field.field.paragraph.section.field_rowgroups
+    - field.field.paragraph.section.field_section_description
     - field.field.paragraph.section.field_section_name
     - paragraphs.paragraphs_type.section
   module:
@@ -21,16 +22,23 @@ content:
       thousand_separator: ''
       prefix_suffix: true
     third_party_settings: {  }
-    weight: 1
+    weight: 2
     region: content
-  field_rows:
+  field_rowgroups:
     type: entity_reference_revisions_entity_view
     label: inline
     settings:
       view_mode: default
       link: ''
     third_party_settings: {  }
-    weight: 2
+    weight: 3
+    region: content
+  field_section_description:
+    type: basic_string
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
     region: content
   field_section_name:
     type: string

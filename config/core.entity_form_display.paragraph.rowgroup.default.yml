@@ -1,30 +1,30 @@
-uuid: be40d5ba-e76b-4308-bc55-05b46345e558
+uuid: d0ecaea9-5c56-4966-8266-f3c5157046fa
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.instruction.field_modifier
-    - field.field.paragraph.instruction.field_stitches
-    - field.field.paragraph.instruction.field_times
-    - paragraphs.paragraphs_type.instruction
+    - field.field.paragraph.rowgroup.field_row_note
+    - field.field.paragraph.rowgroup.field_rows
+    - field.field.paragraph.rowgroup.field_times
+    - paragraphs.paragraphs_type.rowgroup
   module:
     - paragraphs
-id: paragraph.instruction.default
+id: paragraph.rowgroup.default
 targetEntityType: paragraph
-bundle: instruction
+bundle: rowgroup
 mode: default
 content:
-  field_modifier:
-    type: string_textfield
-    weight: 2
+  field_row_note:
+    type: string_textarea
+    weight: 0
     region: content
     settings:
-      size: 60
+      rows: 5
       placeholder: ''
     third_party_settings: {  }
-  field_stitches:
+  field_rows:
     type: paragraphs
-    weight: 0
+    weight: 2
     region: content
     settings:
       title: Paragraph
@@ -33,11 +33,10 @@ content:
       closed_mode: summary
       autocollapse: none
       closed_mode_threshold: 0
-      add_mode: button
+      add_mode: dropdown
       form_display_mode: default
-      default_paragraph_type: stitch
+      default_paragraph_type: ''
       features:
-        add_above: '0'
         collapse_edit_all: collapse_edit_all
         duplicate: duplicate
     third_party_settings: {  }

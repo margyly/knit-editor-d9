@@ -1,19 +1,19 @@
-uuid: bc354395-4590-4729-bd7f-ee19136047e7
+uuid: b19ac3af-8fb1-4c86-ac74-8cc74b4fcdba
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_rows
-    - paragraphs.paragraphs_type.row
+    - field.storage.paragraph.field_rowgroups
+    - paragraphs.paragraphs_type.rowgroup
     - paragraphs.paragraphs_type.section
   module:
     - entity_reference_revisions
-id: paragraph.section.field_rows
-field_name: field_rows
+id: paragraph.section.field_rowgroups
+field_name: field_rowgroups
 entity_type: paragraph
 bundle: section
-label: Rows
-description: ''
+label: rowgroups
+description: 'Groups of rows (which may be repeated as a group)'
 required: false
 translatable: false
 default_value: {  }
@@ -22,16 +22,22 @@ settings:
   handler: 'default:paragraph'
   handler_settings:
     target_bundles:
-      row: row
+      rowgroup: rowgroup
     negate: 0
     target_bundles_drag_drop:
-      instruction_group:
-        weight: 4
+      instruction:
+        weight: 6
         enabled: false
       row:
-        weight: 5
+        weight: 7
+        enabled: false
+      rowgroup:
+        weight: 8
         enabled: true
       section:
-        weight: 6
+        weight: 9
+        enabled: false
+      stitch:
+        weight: 10
         enabled: false
 field_type: entity_reference_revisions

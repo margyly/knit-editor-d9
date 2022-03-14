@@ -3,8 +3,8 @@ langcode: en
 status: true
 dependencies: {  }
 id: section
-label: Section
+label: section
 icon_uuid: null
 icon_default: null
-description: 'Instructions for a large section, e.g., Left arm or Back. Made up of rows.'
+description: 'Instructions for a large section, e.g., Left arm or Back. Made up of rowGroups.'
 behavior_plugins: {  }

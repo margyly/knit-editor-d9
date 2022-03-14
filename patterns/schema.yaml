@@ -93,9 +93,13 @@ properties:
         description: Group of rows (grouped together in case they are repeated)
         type: object
         properties:
+          note: 
+            description: Additional intsructions for this group of rows
+            type: string
+            maxItems: 1
           quantity: 
             description: Number of times to repeat this group of rows
-            type: string
+            type: integer
             maxItems: 1
           rows:
             description: Instructions for rows in this group
@@ -117,6 +121,10 @@ properties:
                 description: Group of stitches, which might be repeated
                 type: object
                 properties:
+                  quantity: 
+                    description: Number of times to repeat this group of stitches
+                    type: integer
+                    maxItems: 1
                   note: 
                     description: Additional instructions about this group of stitches
                     type: string

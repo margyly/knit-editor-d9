@@ -1,11 +1,11 @@
-uuid: f8ca321c-bd50-4f96-ae3e-b4f11f4c983e
+uuid: e035e8cc-2d25-4175-9219-5d82e2fd3ff2
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
-id: paragraph.field_comment
-field_name: field_comment
+id: paragraph.field_row_comment
+field_name: field_row_comment
 entity_type: paragraph
 type: string_long
 settings:

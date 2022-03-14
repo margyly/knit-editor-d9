@@ -9,7 +9,7 @@ id: node.pattern.field_description
 field_name: field_description
 entity_type: node
 bundle: pattern
-label: Description
+label: description
 description: ''
 required: false
 translatable: false

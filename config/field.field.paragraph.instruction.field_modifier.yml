@@ -9,8 +9,8 @@ id: paragraph.instruction.field_modifier
 field_name: field_modifier
 entity_type: paragraph
 bundle: instruction
-label: Modifier
-description: ''
+label: Comment
+description: 'Additional instructions for this row.'
 required: false
 translatable: true
 default_value: {  }

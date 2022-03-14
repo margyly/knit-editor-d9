@@ -4,10 +4,13 @@ author:
    name: Margy Levine Young
    email: margy@gurus.org
    website: https://gurus.org/margy
-colors: one
+colors: 
+  - red
 category: Hat
 image: https://drive.google.com/file/d/19gUAgur-Aq0k15AYT3CNgHziEycmzfW8/view?usp=sharing
-sizes: small, medium
+sizes: 
+  - small
+  - medium
 yarnWeight: Worsted
 gauge: 
   stitches: 18
@@ -31,25 +34,26 @@ sections:
         rows:
           - label: Row 1
             stitchGroups:
-              stitches:
-                - action: k
-                - action: inc
-                - action: k
-                  modifier: to second-to-last st
-                - action: inc
-                - action: k
+              - stitches:
+                  - action: k
+                  - action: inc
+                  - action: k
+                    modifier: to second-to-last st
+                  - action: inc
+                  - action: k
           - label: Row 2
             stitchGroups:
-              stitches:
-                - action: p
-                  modifier: all stitches 
-  - section: Hat
+              - stitches:
+                  - action: p
+                    modifier: all stitches 
+  - label: Hat
     description: Now you start knitting in the round on a circular needle, picking up stiches from the ear flaps.
     rowGroups:
       - rows:
           - label: Cast on the rest of the stitches using a cable cast-on.
             stitchGroups:
-              - stitches:
+              - quantity: 1
+                stitches:
                   - action: co
                     quantity: 7, 10
                   - action: k
@@ -65,103 +69,108 @@ sections:
                   - action: pm
                     modifer: and join making sure there are no twists
           - stitchGroups:
-            - stitches:
-                - action: k
-                  quantity: 72, 84
+              - quantity: 1
+                stitches:
+                  - action: k
+                    quantity: 72, 84
           - stitchGroups:
-            - stitches:
-                - action: p
-                  quantity: 7, 10
-                - action: k
-                  quantity: 20
-                  modifer: across one earflap
-                - action: p
-                  quantity: 18, 24
-                - action: k
-                  quantity: 20
-                  modifer: across the other earflap
-                - action: p
-                  quantity: 7, 10
+              - quantity: 1
+                stitches:
+                  - action: p
+                    quantity: 7, 10
+                  - action: k
+                    quantity: 20
+                    modifer: across one earflap
+                  - action: p
+                    quantity: 18, 24
+                  - action: k
+                    quantity: 20
+                    modifer: across the other earflap
+                  - action: p
+                    quantity: 7, 10
           - label: Body of the hat
             note: If you want to use multiple colors for the body of the hat, now is the time to start. Use any pattern that is a multiple of 6 or 12.
             stitchGroups:
           - quantity: 28
             stitchGroups:
-              - stitches:
+              - quantity: 1
+                stitches:
                   - action: k
                     quantity: 72, 84
           - label: Starting to decrease
             stitchGroups:
-              - stitches:
+              - quantity: 1
+                stitches:
                   - action: k
                     quantity: 10, 12
                   - action: k2tog
           - stitchGroups:
-            - stitches:
-                - action: k
-                  quantity: 9, 11
-                - action: k2tog
+              - quantity: 1
+                stitches:
+                  - action: k
+                    quantity: 9, 11
+                  - action: k2tog
           - stitchGroups:
-            - quantity: 6
-              stitches:
-                - action: k
-                  quantity: 8, 10
-                - action: k2tog
+              - quantity: 6
+                stitches:
+                  - action: k
+                    quantity: 8, 10
+                  - action: k2tog
           - stitchGroups:
-            - quantity: 6
-              stitches:
-                - action: k
-                  quantity: 7, 9
-                - action: k2tog
+              - quantity: 6
+                stitches:
+                  - action: k
+                    quantity: 7, 9
+                  - action: k2tog
           - stitchGroups:
-            - quantity: 6
-              stitches:
-                - action: k
-                  quantity: 6, 8
-                - action: k2tog
+              - quantity: 6
+                stitches:
+                  - action: k
+                    quantity: 6, 8
+                  - action: k2tog
           - stitchGroups:
-            - quantity: 6
-              stitches:
-                - action: k
-                  quantity: 5, 7
-                - action: k2tog
+              - quantity: 6
+                stitches:
+                  - action: k
+                    quantity: 5, 7
+                  - action: k2tog
           - stitchGroups:
-            - quantity: 6
-              stitches:
-                - action: k
-                  quantity: 4, 6
-                - action: k2tog
+              - quantity: 6
+                stitches:
+                  - action: k
+                    quantity: 4, 6
+                  - action: k2tog
           - stitchGroups:
-            - quantity: 6
-              stitches:
-                - action: k
-                  quantity: 3, 15
-                - action: k2tog
+              - quantity: 6
+                stitches:
+                  - action: k
+                    quantity: 3, 15
+                  - action: k2tog
           - stitchGroups:
-            - quantity: 6
-              stitches:
-                - action: k
-                  quantity: 2, 4
-                - action: k2tog
+              - quantity: 6
+                stitches:
+                  - action: k
+                    quantity: 2, 4
+                  - action: k2tog
           - stitchGroups:
-            - quantity: 6
-              stitches:
-                - action: k
-                  quantity: 1, 3
-                - action: k2tog
+              - quantity: 6
+                stitches:
+                  - action: k
+                    quantity: 1, 3
+                  - action: k2tog
           - stitchGroups:
-            - quantity: 6
-              stitches:
-                - action: k
-                  quantity: 0, 2
-                - action: k2tog
-                  quantity: 0, 1
+              - quantity: 6
+                stitches:
+                  - action: k
+                    quantity: 0, 2
+                  - action: k2tog
+                    quantity: 0, 1
           - stitchGroups:
-            - quantity: 6
-              stitches:
-                - action: k
-                  quantity: 0, 1
-                - action: k2tog
-                  quantity: 0, 1
+              - quantity: 6
+                stitches:
+                  - action: k
+                    quantity: 0, 1
+                  - action: k2tog
+                    quantity: 0, 1
           - note: Cut yarn with a 2-foot tail. Use a tapestry needle thru all sts, pull tight, and make a knot. Make braided strings for the bottoms of the earflaps.
             stitchGroups:

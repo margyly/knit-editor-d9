@@ -18,20 +18,59 @@ settings:
       value: p
       label: purl
     -
+      value: bo
+      label: 'bind off'
+    -
       value: co
       label: 'cast on'
     -
-      value: yo
-      label: 'yarn over'
+      value: connect
+      label: connect
+    -
+      value: dec
+      label: decrease
     -
       value: inc
       label: increase
+    -
+      value: k2tog
+      label: 'knit 2 together'
+    -
+      value: k3tog
+      label: 'knit 3 together'
+    -
+      value: kfb
+      label: 'knit in front and back of stitch'
+    -
+      value: pfb
+      label: 'purl in front and back of stitch'
     -
       value: pm
       label: 'place marker'
     -
       value: rm
       label: 'remove marker'
+    -
+      value: sl
+      label: 'slip stitch'
+    -
+      value: slm
+      label: 'slip marker'
+    -
+      value: ssk
+      label: 'slip 2 stitches and knit together'
+    -
+      value: turn
+      label: turn
+    -
+      value: yb
+      label: 'yarn to back'
+    -
+      value: yf
+      label: 'yarn to front'
+    -
+      value: yo
+      label: 'yarn over'
   allowed_values_function: ''
 module: options
 locked: false

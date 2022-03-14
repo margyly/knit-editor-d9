@@ -1,15 +1,15 @@
-uuid: 27aeb4a7-f430-4731-b35e-51c294d56139
+uuid: 030ec4f6-505a-43a3-b754-c5839a005975
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_comment
+    - field.storage.paragraph.field_row_comment
     - paragraphs.paragraphs_type.row
-id: paragraph.row.field_comment
-field_name: field_comment
+id: paragraph.row.field_row_comment
+field_name: field_row_comment
 entity_type: paragraph
 bundle: row
-label: Comment
+label: comment
 description: ''
 required: false
 translatable: false

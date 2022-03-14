@@ -9,8 +9,8 @@ id: paragraph.row.field_label
 field_name: field_label
 entity_type: paragraph
 bundle: row
-label: Label
-description: ''
+label: label
+description: 'Label for this row. E.g., Row 1.'
 required: false
 translatable: false
 default_value: {  }

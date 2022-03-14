@@ -9,7 +9,7 @@ id: node.pattern.field_number_of_stitches
 field_name: field_number_of_stitches
 entity_type: node
 bundle: pattern
-label: 'Number of Stitches'
+label: numberOfStitches
 description: 'Number of stitches that should measure the specified number of inches'
 required: false
 translatable: false

@@ -1,12 +1,12 @@
-uuid: b2c0580e-cd83-437e-abb5-17bab5bcba66
+uuid: fcbd5ce6-0aa8-4372-ac62-89fecdba4b51
 langcode: en
 status: true
 dependencies:
   module:
     - entity_reference_revisions
     - paragraphs
-id: paragraph.field_rows
-field_name: field_rows
+id: paragraph.field_rowgroups
+field_name: field_rowgroups
 entity_type: paragraph
 type: entity_reference_revisions
 settings:

@@ -9,7 +9,7 @@ id: node.pattern.field_gauge_inches
 field_name: field_gauge_inches
 entity_type: node
 bundle: pattern
-label: 'Gauge Inches'
+label: inchesSts
 description: 'Number of inches that the specified number of stitches should measure'
 required: false
 translatable: false

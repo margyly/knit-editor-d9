@@ -1,18 +1,17 @@
-uuid: e0ee03fe-4711-48b0-94a0-dd4acf6cc016
+uuid: 15766593-3f51-4375-af28-6faf84d4f280
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_colors
     - node.type.pattern
-id: node.pattern.field_colors
-field_name: field_colors
+id: node.pattern.title
+field_name: title
 entity_type: node
 bundle: pattern
-label: colors
+label: patternTitle
 description: ''
-required: false
-translatable: false
+required: true
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

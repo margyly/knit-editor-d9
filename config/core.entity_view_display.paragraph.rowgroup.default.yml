@@ -1,35 +1,34 @@
-uuid: 5b05b521-369d-437b-95e9-9c56dbd8e0fb
+uuid: cd9c9f69-22fd-4c6a-b60d-e7b05f3919f8
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.instruction.field_modifier
-    - field.field.paragraph.instruction.field_stitches
-    - field.field.paragraph.instruction.field_times
-    - paragraphs.paragraphs_type.instruction
+    - field.field.paragraph.rowgroup.field_row_note
+    - field.field.paragraph.rowgroup.field_rows
+    - field.field.paragraph.rowgroup.field_times
+    - paragraphs.paragraphs_type.rowgroup
   module:
     - entity_reference_revisions
-id: paragraph.instruction.default
+id: paragraph.rowgroup.default
 targetEntityType: paragraph
-bundle: instruction
+bundle: rowgroup
 mode: default
 content:
-  field_modifier:
-    type: string
+  field_row_note:
+    type: basic_string
     label: inline
-    settings:
-      link_to_entity: false
+    settings: {  }
     third_party_settings: {  }
-    weight: 2
+    weight: 0
     region: content
-  field_stitches:
+  field_rows:
     type: entity_reference_revisions_entity_view
     label: inline
     settings:
       view_mode: default
       link: ''
     third_party_settings: {  }
-    weight: 0
+    weight: 2
     region: content
   field_times:
     type: number_integer

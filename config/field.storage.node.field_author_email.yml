@@ -1,20 +1,17 @@
-uuid: d6948e52-a0bf-4e7c-af60-6ad41f475c03
+uuid: aad3743d-93ac-4081-b030-471d7f1cf6d1
 langcode: en
 status: true
 dependencies:
   module:
     - node
-id: node.field_colors
-field_name: field_colors
+id: node.field_author_email
+field_name: field_author_email
 entity_type: node
-type: string
-settings:
-  max_length: 255
-  case_sensitive: false
-  is_ascii: false
+type: email
+settings: {  }
 module: core
 locked: false
-cardinality: -1
+cardinality: 1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

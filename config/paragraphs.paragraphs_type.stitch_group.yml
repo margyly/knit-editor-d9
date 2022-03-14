@@ -3,8 +3,8 @@ langcode: en
 status: true
 dependencies: {  }
 id: stitch_group
-label: 'Stitch Group'
+label: stitch
 icon_uuid: null
 icon_default: null
-description: ''
+description: 'Individual stitch actions, despite the field name'
 behavior_plugins: {  }

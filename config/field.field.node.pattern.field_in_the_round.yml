@@ -9,15 +9,15 @@ id: node.pattern.field_in_the_round
 field_name: field_in_the_round
 entity_type: node
 bundle: pattern
-label: 'In the Round'
+label: inTheRound
 description: ''
-required: true
+required: false
 translatable: false
 default_value:
   -
     value: 0
 default_value_callback: ''
 settings:
-  on_label: 'In the Round'
-  off_label: 'Back and Forth'
+  on_label: 'yes'
+  off_label: 'no'
 field_type: boolean

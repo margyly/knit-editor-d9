@@ -1,19 +1,19 @@
-uuid: 6b860ada-4664-411d-9a94-6d5545709b84
+uuid: 71015cb1-440c-4797-bef9-4c03c355a98b
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_stitches
-    - paragraphs.paragraphs_type.instruction
-    - paragraphs.paragraphs_type.stitch
+    - field.storage.paragraph.field_rows
+    - paragraphs.paragraphs_type.row
+    - paragraphs.paragraphs_type.rowgroup
   module:
     - entity_reference_revisions
-id: paragraph.instruction.field_stitches
-field_name: field_stitches
+id: paragraph.rowgroup.field_rows
+field_name: field_rows
 entity_type: paragraph
-bundle: instruction
-label: Stitches
-description: ''
+bundle: rowgroup
+label: rows
+description: 'Rows in this group of rows'
 required: false
 translatable: false
 default_value: {  }
@@ -22,19 +22,22 @@ settings:
   handler: 'default:paragraph'
   handler_settings:
     target_bundles:
-      stitch: stitch
+      row: row
     negate: 0
     target_bundles_drag_drop:
       instruction:
-        weight: 5
-        enabled: false
-      row:
         weight: 6
         enabled: false
-      section:
+      row:
         weight: 7
+        enabled: true
+      rowgroup:
+        weight: 8
+        enabled: false
+      section:
+        weight: 9
         enabled: false
       stitch:
-        weight: 8
-        enabled: true
+        weight: 10
+        enabled: false
 field_type: entity_reference_revisions
