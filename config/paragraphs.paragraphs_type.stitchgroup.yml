@@ -1,0 +1,10 @@
+uuid: 104540ba-e669-4205-b824-9ce74ae374d0
+langcode: en
+status: true
+dependencies: {  }
+id: stitchgroup
+label: stitchGroup
+icon_uuid: null
+icon_default: null
+description: 'Group of stitches that may be repeated as a group. Used in rows. Made up of stitches.'
+behavior_plugins: {  }

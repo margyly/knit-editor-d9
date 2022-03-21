@@ -1,0 +1,25 @@
+uuid: 8576bd53-9591-4538-9834-5dcdeb242ba6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_stitch_quantity
+    - paragraphs.paragraphs_type.stitches
+id: paragraph.stitches.field_stitch_quantity
+field_name: field_stitch_quantity
+entity_type: paragraph
+bundle: stitches
+label: quantity
+description: 'Number of times to repeat this individual stitch'
+required: true
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

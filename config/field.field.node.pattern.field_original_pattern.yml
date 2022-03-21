@@ -1,0 +1,21 @@
+uuid: 2f556085-8a8b-4b16-8907-a743bccdb07c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_original_pattern
+    - node.type.pattern
+  module:
+    - text
+id: node.pattern.field_original_pattern
+field_name: field_original_pattern
+entity_type: node
+bundle: pattern
+label: 'Original Pattern'
+description: 'Text of the original pattern - not used to create the YAML file, just for reference.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

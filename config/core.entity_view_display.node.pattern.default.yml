@@ -15,6 +15,7 @@ dependencies:
     - field.field.node.pattern.field_in_the_round
     - field.field.node.pattern.field_number_of_rows
     - field.field.node.pattern.field_number_of_stitches
+    - field.field.node.pattern.field_original_pattern
     - field.field.node.pattern.field_sections
     - field.field.node.pattern.field_sizes
     - field.field.node.pattern.field_yarn_weight
@@ -33,7 +34,7 @@ content:
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 3
+    weight: 2
     region: content
   field_author_name:
     type: string
@@ -41,7 +42,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 2
+    weight: 1
     region: content
   field_author_website:
     type: link
@@ -53,7 +54,7 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    weight: 4
+    weight: 3
     region: content
   field_category:
     type: entity_reference_label
@@ -61,7 +62,7 @@ content:
     settings:
       link: false
     third_party_settings: {  }
-    weight: 5
+    weight: 4
     region: content
   field_colors:
     type: string
@@ -69,14 +70,14 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 7
+    weight: 6
     region: content
   field_description:
     type: basic_string
     label: inline
     settings: {  }
     third_party_settings: {  }
-    weight: 1
+    weight: 0
     region: content
   field_gauge_inches:
     type: number_integer
@@ -85,7 +86,7 @@ content:
       thousand_separator: ''
       prefix_suffix: true
     third_party_settings: {  }
-    weight: 11
+    weight: 10
     region: content
   field_gauge_inches_rows:
     type: number_integer
@@ -94,7 +95,7 @@ content:
       thousand_separator: ''
       prefix_suffix: true
     third_party_settings: {  }
-    weight: 13
+    weight: 12
     region: content
   field_image_location:
     type: link
@@ -106,7 +107,7 @@ content:
       rel: '0'
       target: '0'
     third_party_settings: {  }
-    weight: 14
+    weight: 13
     region: content
   field_in_the_round:
     type: boolean
@@ -116,7 +117,7 @@ content:
       format_custom_false: ''
       format_custom_true: ''
     third_party_settings: {  }
-    weight: 8
+    weight: 7
     region: content
   field_number_of_rows:
     type: number_integer
@@ -125,7 +126,7 @@ content:
       thousand_separator: ''
       prefix_suffix: true
     third_party_settings: {  }
-    weight: 12
+    weight: 11
     region: content
   field_number_of_stitches:
     type: number_integer
@@ -134,7 +135,7 @@ content:
       thousand_separator: ''
       prefix_suffix: true
     third_party_settings: {  }
-    weight: 10
+    weight: 9
     region: content
   field_sections:
     type: entity_reference_revisions_entity_view
@@ -143,7 +144,7 @@ content:
       view_mode: default
       link: ''
     third_party_settings: {  }
-    weight: 15
+    weight: 14
     region: content
   field_sizes:
     type: string
@@ -151,7 +152,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 6
+    weight: 5
     region: content
   field_yarn_weight:
     type: string
@@ -159,11 +160,8 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 9
+    weight: 8
     region: content
-  links:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 0
-    region: content
-hidden: {  }
+hidden:
+  field_original_pattern: true
+  links: true

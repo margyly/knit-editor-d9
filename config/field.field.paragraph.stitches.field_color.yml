@@ -1,18 +1,18 @@
-uuid: b14570f5-b51e-4630-96bb-8f41c9da69ba
+uuid: ef3cbfb6-1198-4d68-89f9-f1fc0f4536cd
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_color
-    - paragraphs.paragraphs_type.stitch_group
-id: paragraph.stitch_group.field_color
+    - paragraphs.paragraphs_type.stitches
+id: paragraph.stitches.field_color
 field_name: field_color
 entity_type: paragraph
-bundle: stitch_group
+bundle: stitches
 label: color
-description: ''
+description: 'Color to use for this stitch'
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

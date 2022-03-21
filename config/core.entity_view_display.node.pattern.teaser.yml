@@ -16,6 +16,7 @@ dependencies:
     - field.field.node.pattern.field_in_the_round
     - field.field.node.pattern.field_number_of_rows
     - field.field.node.pattern.field_number_of_stitches
+    - field.field.node.pattern.field_original_pattern
     - field.field.node.pattern.field_sections
     - field.field.node.pattern.field_sizes
     - field.field.node.pattern.field_yarn_weight
@@ -45,6 +46,7 @@ hidden:
   field_in_the_round: true
   field_number_of_rows: true
   field_number_of_stitches: true
+  field_original_pattern: true
   field_sections: true
   field_sizes: true
   field_yarn_weight: true

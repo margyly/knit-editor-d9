@@ -15,6 +15,7 @@ dependencies:
     - field.field.node.pattern.field_in_the_round
     - field.field.node.pattern.field_number_of_rows
     - field.field.node.pattern.field_number_of_stitches
+    - field.field.node.pattern.field_original_pattern
     - field.field.node.pattern.field_sections
     - field.field.node.pattern.field_sizes
     - field.field.node.pattern.field_yarn_weight
@@ -22,6 +23,7 @@ dependencies:
   module:
     - link
     - paragraphs
+    - text
 id: node.pattern.default
 targetEntityType: node
 bundle: pattern
@@ -118,6 +120,14 @@ content:
     weight: 10
     region: content
     settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_original_pattern:
+    type: text_textarea
+    weight: 26
+    region: content
+    settings:
+      rows: 5
       placeholder: ''
     third_party_settings: {  }
   field_sections:

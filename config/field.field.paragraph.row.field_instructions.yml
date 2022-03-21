@@ -4,8 +4,8 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.field_instructions
-    - paragraphs.paragraphs_type.instruction
     - paragraphs.paragraphs_type.row
+    - paragraphs.paragraphs_type.stitchgroup
   module:
     - entity_reference_revisions
 id: paragraph.row.field_instructions
@@ -22,12 +22,9 @@ settings:
   handler: 'default:paragraph'
   handler_settings:
     target_bundles:
-      instruction: instruction
+      stitchgroup: stitchgroup
     negate: 0
     target_bundles_drag_drop:
-      instruction:
-        weight: 5
-        enabled: true
       row:
         weight: 4
         enabled: false
@@ -37,7 +34,10 @@ settings:
       section:
         weight: 7
         enabled: false
-      stitch:
-        weight: 8
+      stitches:
+        weight: 9
         enabled: false
+      stitchgroup:
+        weight: 10
+        enabled: true
 field_type: entity_reference_revisions

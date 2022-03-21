@@ -1,45 +1,36 @@
-uuid: 057e7787-59d3-4449-95de-3ab4ae4823ad
+uuid: f6a3e215-b4de-43f3-8489-f3e3b58944d1
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.row.field_instructions
-    - field.field.paragraph.row.field_label
-    - field.field.paragraph.row.field_row_comment
-    - field.field.paragraph.row.field_row_times
-    - paragraphs.paragraphs_type.row
+    - field.field.paragraph.stitchgroup.field_stitches
+    - field.field.paragraph.stitchgroup.field_stitchgroup_note
+    - field.field.paragraph.stitchgroup.field_stitchgroup_quantity
+    - paragraphs.paragraphs_type.stitchgroup
   module:
     - entity_reference_revisions
-id: paragraph.row.default
+id: paragraph.stitchgroup.default
 targetEntityType: paragraph
-bundle: row
+bundle: stitchgroup
 mode: default
 content:
-  field_instructions:
+  field_stitches:
     type: entity_reference_revisions_entity_view
     label: inline
     settings:
       view_mode: default
       link: ''
     third_party_settings: {  }
-    weight: 3
+    weight: 2
     region: content
-  field_label:
-    type: string
-    label: inline
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    weight: 1
-    region: content
-  field_row_comment:
+  field_stitchgroup_note:
     type: basic_string
     label: inline
     settings: {  }
     third_party_settings: {  }
-    weight: 2
+    weight: 1
     region: content
-  field_row_times:
+  field_stitchgroup_quantity:
     type: number_integer
     label: inline
     settings:

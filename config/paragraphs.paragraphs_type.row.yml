@@ -6,5 +6,5 @@ id: row
 label: row
 icon_uuid: null
 icon_default: null
-description: 'Instructions for one row. Made up of stitchGroups (paragraph field name = instruction).'
+description: 'Instructions for one row. Made up of stitchGroups.'
 behavior_plugins: {  }

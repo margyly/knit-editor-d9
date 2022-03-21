@@ -1,17 +1,15 @@
-uuid: 2a5ecc73-acd1-48b2-a8bc-a31264aca472
+uuid: 6e7f211a-9abb-4450-8f3a-0d366128af3b
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
-id: paragraph.field_color
-field_name: field_color
+id: paragraph.field_stitchgroup_note
+field_name: field_stitchgroup_note
 entity_type: paragraph
-type: string
+type: string_long
 settings:
-  max_length: 255
   case_sensitive: false
-  is_ascii: false
 module: core
 locked: false
 cardinality: 1

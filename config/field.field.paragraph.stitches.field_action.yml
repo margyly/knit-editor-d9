@@ -1,0 +1,23 @@
+uuid: a261ca9a-6b26-490f-bc7b-fe95737b612e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_action
+    - paragraphs.paragraphs_type.stitches
+  module:
+    - options
+id: paragraph.stitches.field_action
+field_name: field_action
+entity_type: paragraph
+bundle: stitches
+label: action
+description: 'Action, using knitting abbreviation'
+required: true
+translatable: false
+default_value:
+  -
+    value: k
+default_value_callback: ''
+settings: {  }
+field_type: list_string

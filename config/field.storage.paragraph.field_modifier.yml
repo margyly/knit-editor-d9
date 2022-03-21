@@ -1,4 +1,4 @@
-uuid: c2cfc964-165a-47cc-9b9d-ab89578225c8
+uuid: 74651099-ab4e-4376-89ad-c4161067690c
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,9 @@ dependencies:
 id: paragraph.field_modifier
 field_name: field_modifier
 entity_type: paragraph
-type: string
+type: string_long
 settings:
-  max_length: 255
   case_sensitive: false
-  is_ascii: false
 module: core
 locked: false
 cardinality: 1

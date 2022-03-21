@@ -1,12 +1,12 @@
-uuid: f3c51c1c-eb4b-42bc-8fba-9f09f1d57f3c
+uuid: 77a0b41b-472e-41f8-8d64-eab910ca0faf
 langcode: en
 status: true
 dependencies:
   module:
     - options
     - paragraphs
-id: paragraph.field_stitch
-field_name: field_stitch
+id: paragraph.field_action
+field_name: field_action
 entity_type: paragraph
 type: list_string
 settings:
@@ -47,6 +47,12 @@ settings:
     -
       value: pm
       label: 'place marker'
+    -
+      value: pu
+      label: 'pick up'
+    -
+      value: puk
+      label: 'pick up and knit'
     -
       value: rm
       label: 'remove marker'

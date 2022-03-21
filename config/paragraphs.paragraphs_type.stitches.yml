@@ -1,0 +1,10 @@
+uuid: 144fab58-5871-4390-b4bf-5b4425b55a83
+langcode: en
+status: true
+dependencies: {  }
+id: stitches
+label: stitches
+icon_uuid: null
+icon_default: null
+description: 'Individual stitches or other actions, along with color and modifier for each. Used in stitchGroups.'
+behavior_plugins: {  }

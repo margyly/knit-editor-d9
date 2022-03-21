@@ -11,9 +11,11 @@ entity_type: paragraph
 bundle: row
 label: quantity
 description: 'Number of times to repeat this individual row'
-required: false
+required: true
 translatable: false
-default_value: {  }
+default_value:
+  -
+    value: 1
 default_value_callback: ''
 settings:
   min: 1

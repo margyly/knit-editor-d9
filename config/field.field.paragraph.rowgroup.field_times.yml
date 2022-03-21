@@ -11,7 +11,7 @@ entity_type: paragraph
 bundle: rowgroup
 label: quantity
 description: 'Number of times to repeat this group of rows'
-required: false
+required: true
 translatable: true
 default_value:
   -
