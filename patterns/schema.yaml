@@ -4,7 +4,7 @@ $schema: "http://stsci.edu/schemas/yaml-schema/draft-01"
 id: "http://gurus.org/schemas/knitting-pattern-draft-01.yaml"
 title: Knitting pattern.
 maintainers:
-  - Margy Levine Young <margy@gurus.org>
+  - Margy Levine Young <onerow@margy.gurus.org>
 description: Describes a single knitting pattern with description and row-by-row instructions.
 type: object
 properties:
