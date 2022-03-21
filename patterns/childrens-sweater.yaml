@@ -15,6 +15,7 @@ gauge:
   stitchesInches: 1
   rows: 5
   inchesRows: 1
+image: https://github.com/margyly/knit-editor-d9/blob/main/patterns/childrens-sweater.png?raw=true
 sections:
   - label: Back
     quantity: 1
