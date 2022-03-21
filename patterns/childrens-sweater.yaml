@@ -1,0 +1,406 @@
+title: Children's Sweater
+description: No gauge given in the original pattern. Knit in one piece starting from the bottom edge of the back. From Handbook of Wool Knitting and Crochet. Published by Needlecraft Publishing Company, Augusta, Maine in 1918.
+author:
+  name: Anonymuos
+  website: https://gutenberg.org/files/26113/26113-h/26113-h.htm
+category: Sweater
+sizes:
+  - One Size
+colors:
+  - One color
+inTheRound: no
+yarnWeight: Worsted
+gauge:
+  stitches: 5
+  stitchesInches: 1
+  rows: 5
+  inchesRows: 1
+sections:
+  - label: Back
+    quantity: 1
+    rowGroups:
+      - quantity: 1
+        rows:
+          - quantity: 1
+            label: Cast-on Row
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 60
+                    action: cast on
+      - quantity: 1
+        note: Ribbing at Bottom of Back
+        rows:
+          - quantity: 12
+            comment: Should measure about two inches when complete.
+            stitchGroups:
+              - quantity: 15
+                stitches:
+                  - quantity: 2
+                    action: knit
+                  - quantity: 2
+                    action: purl
+      - quantity: 50
+        note: These instructions are for stockinette, but you can use any pattern that doesn't change the gauge too much.
+        rows:
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 60
+                    action: knit
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 60
+                    action: purl
+
+  - label: Adding Sleeves
+    description: Add first one sleeve and then the other by casting on additional stitches at the end of the next two rows.
+    quantity: 1
+    rowGroups:
+      - quantity: 1
+        rows:
+          - quantity: 1
+            label: Add left sleeve
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 60
+                    action: knit
+                  - quantity: 42
+                    action: cast on
+          - quantity: 1
+            label: Add right sleeve
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 102
+                    action: purl
+                  - quantity: 42
+                    action: cast on
+      - quantity: 30
+        note: Knit across the left sleeve, the back, and the right sleeve up to the back of the neck.
+        rows:
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 144
+                    action: knit
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 144
+                    action: purl
+
+  - label: Right Front of Neck Opening
+    description: Set aside the stitches for the left sleeve to knit later. Bind off the back of the next. Continue knitting the right sleeve. Add stitches for the right front.
+    rowGroups:
+      - quantity: 1
+        note: Separate the sides of the neck.
+        rows:
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 65
+                    action: slip stitch
+                    modifier: to a stitch-holder (left sleeve).
+                  - quantity: 14
+                    action: bind off
+                    modifier: for the back of the neck
+                  - quantity: 65
+                    action: knit
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 65
+                    action: purl
+      - quantity: 12
+        note: Top of right sleeve
+        rows:
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 65
+                    action: knit
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 65
+                    action: purl
+      - quantity: 1
+        note: Cast on for right front
+        rows:
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 65
+                    action: knit
+                  - quantity: 7
+                    action: cast on
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 72
+                    action: purl
+      - quantity: 14
+        note: Right Front
+        rows:
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 72
+                    action: knit
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 72
+                    action: purl
+      - quantity: 1
+        note: Front Edge of Right Sleeve
+        rows:
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 42
+                    action: bind off
+                  - quantity: 30
+                    action: knit
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 30
+                    action: purl
+      - quantity: 9
+        note: Right Front of Neck Opening
+        rows:
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 30
+                    action: knit
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 30
+                    action: purl
+      - quantity: 1
+        note: Hold Right front stitches while you work the left sleeve and top of left front.
+        rows:
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 30
+                    action: slip stitch
+                    modifier: to stitch-holder
+
+  - label: Left Front of Neck Opening
+    description: Pick up the stitches from the first stitch-holder to continue knitting the left sleeve.
+    rowGroups:
+      - quantity: 1
+        note: Pick up the stitches from the first stitch-holder to continue knitting the left sleeve.
+        rows:
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 65
+                    action: slip stitch
+                    modifier: from stitch-holder
+      - quantity: 6
+        note: Knit top of left sleeve
+        rows:
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 65
+                    action: knit
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 65
+                    action: purl
+      - quantity: 1
+        rows:
+          - quantity: 1
+            label: Add left front
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 7
+                    action: cast on
+                    modifier: at the end of the previous purl row, toward the center of the sweater
+      - quantity: 14
+        note: Front of left sleeve
+        rows:
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 72
+                    action: knit
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 72
+                    action: purl
+      - quantity: 1
+        note: Front edge of left sleeve
+        rows:
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 72
+                    action: knit
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 42
+                    action: bind off
+                  - quantity: 30
+                    action: purl
+      - quantity: 9
+        note: Left side of neck opening
+        rows:
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 30
+                    action: knit
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 30
+                    action: purl
+
+  - label: Front
+    rowGroups:
+      - quantity: 1
+        rows:
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 30
+                    action: slip stitch
+                    modifier: to second needle
+          - quantity: 1
+            label: Add right front to left front
+            comment: Continue purling from the end of the previous row.
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 30
+                    action: purl
+      - quantity: 50
+        note: Knit the front to be the same length as the back, up to the ribbing.
+        rows:
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 60
+                    action: knit
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 60
+                    action: purl
+      - quantity: 12
+        note: Ribbing at Bottom of Front
+        rows:
+          - quantity: 1
+            stitchGroups:
+              - quantity: 15
+                stitches:
+                  - quantity: 2
+                    action: knit
+                  - quantity: 2
+                    action: purl
+      - quantity: 1
+        note: Bind of bottom of front
+        rows:
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 60
+                    action: bind off
+
+  - label: Cuffs
+    description: One for each sleeve
+    quantity: 2
+    rowGroups:
+      - quantity: 1
+        note: Cuffs
+        rows:
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 40
+                    action: pick up
+                    modifier: at the end of the sleeve
+          - quantity: 12
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 40
+                    action: knit
+          - quantity: 1
+            label: Bind off cuff.
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 40
+                    action: bind off
+
+  - label: Collar
+    quantity: 1
+    rowGroups:
+      - quantity: 1
+        rows:
+          - quantity: 1
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 52
+                    action: pick up
+                    modifier: around the collar
+          - quantity: 12
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 52
+                    action: knit
+          - quantity: 1
+            comment: Optional: After binding off, work around edge of collar and down the front opening with double crochet, 1 chain between; lace up the front with cord, ends finished with balls or tassels.
+            stitchGroups:
+              - quantity: 1
+                stitches:
+                  - quantity: 52
+                    action: bind off
